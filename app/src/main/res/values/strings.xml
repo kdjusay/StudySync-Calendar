@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">StudySync Calendar</string>
+    <string name="buttonsignin">Sign In</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+
+    //homepage
+    <string name="taskstitle">Tasks</string>
+    <string name="left_panel"></string>
+    <string name="savetask">Save Task</string>
+    <string name="save">Save</string>
+    <string name="newtaskbutton"></string>
+    <string name="newtask">New Task</string>
+    <string name="desc"></string>
+    <string name="notestitle">Notes</string>
+    <string name="savenote">Save Note</string>
+
+    //calendar
+    <string name="tab_tasks">Tasks</string>
+    <string name="tab_notes">Notes</string>
+    <string name="add_task">Add Task</string>
+
+    //task entry dialog
+    <string name="type_here">Type here:</string>
+    <string name="done">Done</string>
+    <string name="close">Close</string>
+
+
+
+</resources>
