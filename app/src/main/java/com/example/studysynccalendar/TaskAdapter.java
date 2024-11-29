@@ -19,12 +19,14 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskViewHolder
     @NonNull
     @Override
     public TaskViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        // Inflate the task_item layout for each task
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.task_item, parent, false);
         return new TaskViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull TaskViewHolder holder, int position) {
+        // Bind the task data to the view holder
         Task task = tasks.get(position);
         holder.tvTaskTitle.setText(task.getTitle());
         holder.tvTaskDescription.setText(task.getDescription());
@@ -33,7 +35,7 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskViewHolder
 
     @Override
     public int getItemCount() {
-        return tasks.size();
+        return tasks.size(); // Return the number of tasks
     }
 
     public static class TaskViewHolder extends RecyclerView.ViewHolder {
@@ -42,6 +44,7 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskViewHolder
 
         public TaskViewHolder(@NonNull View itemView) {
             super(itemView);
+            // Bind the TextViews from task_item.xml to the view holder
             tvTaskTitle = itemView.findViewById(R.id.tvTaskTitle);
             tvTaskDescription = itemView.findViewById(R.id.tvTaskDescription);
             tvTaskDeadline = itemView.findViewById(R.id.tvTaskDeadline);

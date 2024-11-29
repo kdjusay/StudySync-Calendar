@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Task Title Input -->
+    <EditText
+        android:id="@+id/etTaskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Task Title"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <!-- Task Description Input -->
+    <EditText
+        android:id="@+id/etTaskDescription"
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:gravity="top"
+        android:hint="Task Description"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:padding="10dp" />
+
+    <!-- Task Deadline Input -->
+    <EditText
+        android:id="@+id/etTaskDeadline"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:hint="Task Deadline"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <!-- Save and Cancel Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btnSaveTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#4CAF50"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/btnCancelTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#F44336" />
+    </LinearLayout>
+</LinearLayout>

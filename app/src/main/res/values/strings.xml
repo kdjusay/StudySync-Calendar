@@ -4,7 +4,7 @@
     <string name="Username">Username</string>
     <string name="Password">Password</string>
 
-    //homepage
+    <!-- Homepage -->
     <string name="taskstitle">Tasks</string>
     <string name="left_panel"></string>
     <string name="savetask">Save Task</string>
@@ -15,16 +15,25 @@
     <string name="notestitle">Notes</string>
     <string name="savenote">Save Note</string>
 
-    //calendar
+    <!-- Calendar -->
     <string name="tab_tasks">Tasks</string>
     <string name="tab_notes">Notes</string>
     <string name="add_task">Add Task</string>
+    <string name="calendar_title">October 2024</string>
+    <string name="date_selected">Selected date: %1$d/%2$d/%3$d</string>
+    <string name="add_note">Add Note</string>
 
-    //task entry dialog
+
+    <!-- Task Entry Dialog -->
     <string name="type_here">Type here:</string>
     <string name="done">Done</string>
     <string name="close">Close</string>
+    <string name="task_title">Task Title</string>
+    <string name="task_description">Task Description</string>
+    <string name="task_deadline">Task Deadline</string>
+    <string name="save_task">Save Task</string>
+    <string name="cancel_task">Cancel</string>
 
-
-
+    <!-- RecyclerView Placeholder -->
+    <string name="no_tasks_placeholder">No tasks available. Add a new task.</string>
 </resources>
